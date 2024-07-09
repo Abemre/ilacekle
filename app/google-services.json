@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "366852591925",
+    "project_id": "firabase-kullanimi-3c4a4",
+    "storage_bucket": "firabase-kullanimi-3c4a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366852591925:android:087a114407e4ddf7db7c7c",
+        "android_client_info": {
+          "package_name": "com.example.firebasekullanimi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0G37vj7e0iOchbeyo-cG5wLHeq_PxAzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

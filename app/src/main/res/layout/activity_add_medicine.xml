@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etMedicineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İlaç Adı" />
+
+    <EditText
+        android:id="@+id/etMedicineDose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İlaç Dozajı" />
+
+    <ImageView
+        android:id="@+id/ivMedicineImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="İlaç Resmi"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnChooseImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Resim Seç"
+            android:layout_marginRight="70dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Kaydet"
+            android:layout_marginLeft="70dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
